@@ -16,9 +16,12 @@ Header
 -----------------------------------
 */
 
+header {
+    background-color: #0084fd;
+}
+
 .container {
     padding: 0px 31px;
-    background-color: #0084fd;
     display: flex;
     justify-content: space-between;
     height: 4.6875rem;
@@ -37,6 +40,10 @@ header .container ul {
 
 
 @media screen and (min-width: 992px) {
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
     .menu {
         display: none;
     }
