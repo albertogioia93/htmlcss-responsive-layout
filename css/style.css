@@ -43,6 +43,7 @@ header .container ul {
     .container {
         max-width: 1140px;
         margin: 0 auto;
+        padding: 0;
     }
     .menu {
         display: none;
@@ -100,6 +101,30 @@ Main
     margin: 40px auto;
 }
 
+#sezione1 .container2 .col1 .minicontainer1 h2 {
+    color: #0084fd;
+    margin-bottom: 40px;
+}
+
+#sezione1 .container2 .col1 .minicontainer1 p {
+    color: #5a6e7f;
+    margin-bottom: 40px;
+}
+
+#sezione1 .container2 .col1 .minicontainer1 .button {
+    color: white;
+    padding: 12px 47px;
+    background-color: #0084fd;
+    text-align: center;
+    border-radius: 5%;
+}
+
+#sezione1 .container2 .col1 .minicontainer1 i {
+    font-size: 14px;
+}
+
+
+
 .minicontainer2 {
     width: 200px;
     height: 270px;
@@ -125,7 +150,6 @@ Main
         width: 485px;
         border: 2px dashed black;
         height: 564px;
-        /* margin-bottom: 24px; */
     }
 
     .col {
@@ -133,7 +157,6 @@ Main
         width: 230px;
         border: 2px dashed black;
         height: 564px;
-        /* margin-bottom: 24px; */
     }
 
     .minicontainer1 {
@@ -141,7 +164,6 @@ Main
         width: 428px;
         background-color: yellow;
         border: 2px dashed black;
-        /* margin: 40px auto; */
     }
 
     .minicontainer2 {
@@ -165,6 +187,59 @@ Main
         height: 436px;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .container2 {
+        max-width: 1140px;
+        background-color: pink;
+        height: 715px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .col1 {
+        background-color: #b5ddff;
+        width: 750px;
+        border: 2px dashed black;
+        height: 343px;
+        display: flex;
+    }
+    .col {
+        background-color: #b5ddff;
+        width: 360px;
+        border: 2px dashed black;
+        height: 343px;
+    }
+    .col:nth-child(3) {
+        height: 343px;
+    }
+
+    .col:nth-child(4) {
+        height: 343px;
+    }
+
+    .col:nth-child(5) {
+        height: 343px;
+    }
+    .minicontainer1 {
+        height: 252px;
+        width: 337px;
+        background-color: yellow;
+        border: 2px dashed black;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+    .minicontainer2 {
+        align-self: end;
+    }
+}
+
+
+
+
 
 
 
