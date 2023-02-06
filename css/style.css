@@ -83,14 +83,6 @@ Main
     border-radius: 25px;
 }
 
-.col {
-    background-color: #b5ddff;
-    width: 100%;
-    border: 2px dashed black;
-    height: 358px;
-    margin-bottom: 24px;
-}
-
 .minicontainer1 {
     width: 250px;
     margin: 0 auto;
@@ -119,6 +111,25 @@ Main
 
 #sezione1 .container2 .col1 .minicontainer1 i {
     font-size: 14px;
+}
+
+.col {
+    background-color: #b5ddff;
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 30px 35px 36px 35px;
+}
+
+.col i {
+    color: #0084fd;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+.col h2 {
+    margin-bottom: 39px;
+    color: #0084fd;
 }
 
 .minicontainer2 {
