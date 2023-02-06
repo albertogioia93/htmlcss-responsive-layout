@@ -34,16 +34,7 @@ header .container ul {
     display: none;
 }
 
-@media screen and (min-width: 768px) {
-    .container2 {
-        width: 745px;
-        background-color: pink;
-        height: 2142px;
-        margin: 0 auto;
-        margin-top: 50px;
-        margin-bottom: 80px;
-    }
-}
+
 
 @media screen and (min-width: 992px) {
     .menu {
@@ -71,7 +62,7 @@ Main
 
 .container2 {
     background-color: pink;
-    width: 312px;
+    max-width: 312px;
     height: 2142px;
     margin: 0 auto;
     margin-top: 50px;
@@ -110,6 +101,16 @@ Main
     margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+    .container2 {
+        max-width: 745px;
+        background-color: pink;
+        height: 2142px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+}
 
 
 
