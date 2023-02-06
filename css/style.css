@@ -34,6 +34,17 @@ header .container ul {
     display: none;
 }
 
+@media screen and (min-width: 768px) {
+    .container2 {
+        width: 745px;
+        background-color: pink;
+        height: 2142px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .menu {
         display: none;
@@ -98,5 +109,7 @@ Main
     border: 2px dashed black;
     margin: 0 auto;
 }
+
+
 
 
