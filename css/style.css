@@ -191,7 +191,6 @@ Main
 @media screen and (min-width: 992px) {
     .container2 {
         max-width: 1140px;
-        background-color: pink;
         height: 715px;
         margin: 0 auto;
         margin-top: 50px;
@@ -203,14 +202,12 @@ Main
     .col1 {
         background-color: #b5ddff;
         width: 750px;
-        border: 2px dashed black;
         height: 343px;
         display: flex;
     }
     .col {
         background-color: #b5ddff;
         width: 360px;
-        border: 2px dashed black;
         height: 343px;
     }
     .col:nth-child(3) {
@@ -227,8 +224,6 @@ Main
     .minicontainer1 {
         height: 252px;
         width: 337px;
-        background-color: yellow;
-        border: 2px dashed black;
         margin-top: 35px;
         margin-left: 25px;
     }
