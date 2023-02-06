@@ -10,12 +10,19 @@ Reset
     box-sizing: border-box;
 }
 
+/* 
+-----------------------------------
+Header
+-----------------------------------
+*/
+
 .container {
-    padding: 27px 31px;
+    padding: 0px 31px;
     background-color: #0084fd;
     display: flex;
     justify-content: space-between;
     height: 4.6875rem;
+    align-items: center;
 }
 
 i {
@@ -42,6 +49,54 @@ header .container ul {
     header .container ul li:last-child {
         color: black;
         background-color: white;
-    }
-    
+    } 
 }
+
+/* 
+-----------------------------------
+Main
+-----------------------------------
+*/
+
+.container2 {
+    background-color: pink;
+    width: 312px;
+    height: 2142px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.col1 {
+    background-color: #b5ddff;
+    width: 100%;
+    border: 2px dashed black;
+    height: 605px;
+    margin-bottom: 24px;
+}
+
+.col {
+    background-color: #b5ddff;
+    width: 100%;
+    border: 2px dashed black;
+    height: 358px;
+    margin-bottom: 24px;
+}
+
+.minicontainer1 {
+    height: 260px;
+    width: 250px;
+    background-color: yellow;
+    border: 2px dashed black;
+    margin: 40px auto;
+}
+
+.minicontainer2 {
+    width: 200px;
+    height: 270px;
+    background-color: yellow;
+    border: 2px dashed black;
+    margin: 0 auto;
+}
+
+
