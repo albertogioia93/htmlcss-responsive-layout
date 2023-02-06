@@ -145,7 +145,6 @@ Main
 @media screen and (min-width: 768px) {
     .container2 {
         max-width: 745px;
-        background-color: pink;
         height: 1025px;
         margin: 0 auto;
         margin-top: 50px;
@@ -153,33 +152,27 @@ Main
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        padding: 10px;
     }
     .col1 {
         background-color: #b5ddff;
         width: 485px;
-        border: 2px dashed black;
         height: 564px;
     }
 
     .col {
         background-color: #b5ddff;
         width: 230px;
-        border: 2px dashed black;
         height: 564px;
     }
 
     .minicontainer1 {
-        height: 220px;
         width: 428px;
-        background-color: yellow;
-        border: 2px dashed black;
     }
 
     .minicontainer2 {
         width: 200px;
         height: 270px;
-        background-color: yellow;
-        border: 2px dashed black;
         margin-left: 48px;
         margin-bottom:0px;
     }
