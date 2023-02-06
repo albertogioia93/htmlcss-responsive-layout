@@ -157,7 +157,6 @@ Main
     .col1 {
         background-color: #b5ddff;
         width: 485px;
-        height: 564px;
     }
 
     .col {
@@ -171,8 +170,7 @@ Main
     }
 
     .minicontainer2 {
-        width: 200px;
-        height: 270px;
+        width: 240px;
         margin-left: 48px;
         margin-bottom:0px;
     }
