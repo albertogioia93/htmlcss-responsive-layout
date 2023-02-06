@@ -69,7 +69,6 @@ Main
 */
 
 .container2 {
-    background-color: pink;
     max-width: 312px;
     height: 2142px;
     margin: 0 auto;
@@ -80,9 +79,8 @@ Main
 .col1 {
     background-color: #b5ddff;
     width: 100%;
-    border: 2px dashed black;
-    height: 605px;
     margin-bottom: 24px;
+    border-radius: 25px;
 }
 
 .col {
@@ -94,11 +92,9 @@ Main
 }
 
 .minicontainer1 {
-    height: 260px;
     width: 250px;
-    background-color: yellow;
-    border: 2px dashed black;
-    margin: 40px auto;
+    margin: 0 auto;
+    padding-top: 38px;
 }
 
 #sezione1 .container2 .col1 .minicontainer1 h2 {
@@ -116,21 +112,23 @@ Main
     padding: 12px 47px;
     background-color: #0084fd;
     text-align: center;
-    border-radius: 5%;
+    border-radius: 20px;
+    width: 214px;
+    margin-bottom: 38px;
 }
 
 #sezione1 .container2 .col1 .minicontainer1 i {
     font-size: 14px;
 }
 
-
-
 .minicontainer2 {
     width: 200px;
-    height: 270px;
-    background-color: yellow;
-    border: 2px dashed black;
     margin: 0 auto;
+}
+
+.minicontainer2 img {
+    width: 100%;
+    display: block;
 }
 
 @media screen and (min-width: 768px) {
